@@ -6,7 +6,7 @@ export default function Technologies (){
 
     <div className=" px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 text-center  ">
         <div className="max-w-2xl mx-auto text-center">
-            <h2 className="text-4xl font-thin text-neutral-300   sm:text-4xl sm:leading-tight">Technologies</h2>
+            <h2 className="text-4xl font-thin text-neutral-300   sm:text-4xl sm:leading-tight">TECHNOLOGIES</h2>
         </div>
         <div className=" grid items-center max-w-4xl grid-cols-2 gap-4 mx-auto mt-12 md:mt-20 md:grid-cols-4  ">
             
