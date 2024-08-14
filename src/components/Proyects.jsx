@@ -1,5 +1,6 @@
 import {PROJECTS} from '../db.js'
 
+
 export default function Proyects(){
   return (
     <>
@@ -15,10 +16,10 @@ export default function Proyects(){
        
                     <h3 className="mt-2 text-base font-medium text-white justify-center">{item.description}</h3>
                     <a
-  class="mt-5 group relative inline-flex items-center overflow-hidden rounded border border-current px-8 py-3 text-slate-300 focus:outline-none focus:ring active:text-indigo-500"
+  className="mt-5 group relative inline-flex items-center overflow-hidden rounded border border-current px-8 py-3 text-slate-300 focus:outline-none focus:ring active:text-indigo-500"
   href={item.url}
 >
-  <span class="absolute -end-full transition-all group-hover:end-4">
+  <span className="absolute -end-full transition-all group-hover:end-4">
     <svg
       class="size-5 rtl:rotate-180"
       xmlns="http://www.w3.org/2000/svg"
@@ -35,7 +36,7 @@ export default function Proyects(){
     </svg>
   </span>
 
-  <span class="text-sm font-medium transition-all group-hover:me-4"> Visit Site </span>
+  <span className="text-sm font-medium transition-all group-hover:me-4"> Visit Site </span>
 </a>
                   {/* <a
                      class="group inline-block rounded-full                    bg-gradient-to-r from-pink-500 via-red-500                    to-yellow-500 p-[2px] hover:text-white                    focus:outline-none focus:ring active:text-opacity-75"

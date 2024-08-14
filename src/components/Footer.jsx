@@ -1,8 +1,8 @@
 export default function Footer(){
   return (
 
-    <div className="text-white text-center  sm:text-left ">
-    <p className="text-lg font-medium">Contact Us</p>
+    <div className="text-white text-center  sm:text-left m-10 mb-10">
+    <p className="text-lg font-medium">Contact Me</p>
 
     <ul className="mt-8 space-y-4 text-sm">
       <li>
@@ -25,7 +25,7 @@ export default function Footer(){
             />
           </svg>
 
-          <span className="flex-1">john@doe.com</span>
+          <span className="flex-1">luisfercoder@gmail.com</span>
         </a>
       </li>
 
@@ -49,11 +49,11 @@ export default function Footer(){
             />
           </svg>
 
-          <span className="flex-1">0123456789</span>
+          <span className="flex-1">(+52)5567378607</span>
         </a>
       </li>
 
-      <li
+      {/* <li
         className="flex items-start justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end"
       >
         <svg
@@ -77,9 +77,9 @@ export default function Footer(){
         </svg>
 
         <address className="-mt-0.5 flex-1 not-italic ">
-          213 Lane, London, United Kingdom
-        </address>
-      </li>
+          213 Lane, London, United
+        </address> */}
+      {/* </li> */}
     </ul>
   </div>
 
