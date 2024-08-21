@@ -4,17 +4,14 @@ export default {
     "./index.html",
     "./src/**/*.{html,js,ts,jsx,tsx}"
   ],
-  theme: {
+  theme:
+   {
     extend: {
-      animation: {
-        border: 'background ease infinite',
+      fontFamily: {
+        'principal title':['League Gothic', 'sans-serif']
+
       },
-      keyframes: {
-        background: {
-          '0%, 100%': { backgroundPosition: '0% 50%' },
-          '50%': { backgroundPosition: '100% 50%' },
-        },
-      },
+
       
     },
   },

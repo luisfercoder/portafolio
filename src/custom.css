@@ -2,7 +2,9 @@
 
 *{
   /* border:solid 1px red */
-  
+  html{
+    background: radial-gradient(#280a48, #20043d);
+  }
 }
 /* absolute top-0 z-[-2] h-screen w-screen 
 grid items-center max-w-4xl grid-cols-2 gap-4 mx-auto mt-12 */
